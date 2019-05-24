@@ -3,6 +3,8 @@ Official repository for evaluating collision checking policies that use bayesian
 
 ## Related Publications
 1. [Near-Optimal Edge Evaluation in Explicit Generalized Binomial Graphs (NIPS 2017)](https://arxiv.org/pdf/1706.09351.pdf)
+2. [Bayesian Active Edge Evaluation on Expensive Graphs (IJCAI 2018)](https://www.ijcai.org/proceedings/2018/0679.pdf)
+
 
 ## Datasets
 The repository containing datasets is [graph_collision_checking_dataset](https://github.com/sanjibac/graph_collision_checking_dataset)
@@ -24,3 +26,4 @@ Run the file `src/benchmark_coll_check_policy.m` to execute the algorithms in th
 2. Run any one of the scripts from `example_environments/` to generate a set of environments corresponding to some world distribution. You may have to create a set of empty folders for the scripts to save stuff in.
 3. Run `create_graph.m`. This will create a 2D RGG, start and goal and save this.
 4. Run `collision_check_graph.m`. This will collision check the graph on a given dataset.
+
